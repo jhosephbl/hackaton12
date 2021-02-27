@@ -74,3 +74,7 @@ function limpiar(){
     solucion="";
     document.Calculadora.txtboxnros.value="0"
 }
+
+
+
+	

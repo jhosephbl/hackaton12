@@ -413,7 +413,7 @@ body {
 .contenedor-general {
   margin: 0 auto;
   width: 800px;
-  height: 800px;
+  height: 600px;
   background: #ffeccb;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: -webkit-box;
@@ -444,5 +444,77 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+
+.contenedor-tareas {
+  margin: 0 auto;
+  width: 500px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.contenedor-tareas h3 {
+  text-align: center;
+}
+
+.contenedor-tareas-nuevaTarea {
+  color: black;
+  list-style: none;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedor-tareas-trash {
+  width: 100px;
+  height: 50px;
+  background: black;
+  color: white;
+  border: none;
+  font-size: .5em;
+}
+
+.contenedor-tareas-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenedor-tareas-boton {
+  width: 150px;
+  height: 50px;
+  background: black;
+  color: white;
+  border: none;
 }
 /*# sourceMappingURL=styles.css.map */
