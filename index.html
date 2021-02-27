@@ -9,36 +9,46 @@
 </head>
 <body>
 
+    
+    <form name="Calculadora" class="contenedor-general">
+        <table class="numeros-contenedor">
+            <tr class="numeros-lista">
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="1" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="2" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="3" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="matematicas-operacion" type="button" value="+" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="matematicas-operacion" type="button" value="-" onclick="ingresarNumero(this.value)"></td>
+            </tr>
 
-    <div class="numeros">
-        <nav class="contenedor-numeros">
-            <ul class="contenedor-numeros-list">
-                <li class="contenedor-numeros-element">1</li>
-                <li class="contenedor-numeros-element">2</li>
-                <li class="contenedor-numeros-element">3</li>
-                <li class="contenedor-numeros-element">4</li>
-                <li class="contenedor-numeros-element">5</li>
-                <li class="contenedor-numeros-element">6</li>
-                <li class="contenedor-numeros-element">7</li>
-                <li class="contenedor-numeros-element">8</li>
-                <li class="contenedor-numeros-element">9</li>
-                <li class="contenedor-numeros-element">0</li>
-            </ul>
-        </nav>
-     </div>
-  
-   <div class="matematicas">
-       <nav class="contenedor">
-           <ul class="contenedor-list">
-               <li class="contenedor-list-element">+</li>
-               <li class="contenedor-list-element">-</li>
-               <li class="contenedor-list-element">×</li>
-               <li class="contenedor-list-element">÷</li>
-               <li class="contenedor-list-element">N²</li>
-           </ul>
-       </nav>
-    </div>
+            <tr class="numero-lista">
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="4" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="5" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="6" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="matematicas-operacion" type="button" value="*" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="matematicas-operacion" type="button" value="/" onclick="ingresarNumero(this.value)"></td>
+            </tr>
+
+            <tr class="numero-lista">
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="7" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="8" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="numeros-elemento" type="button" value="9" onclick="ingresarNumero(this.value)"></td>
+                <td class="numeros-td"><input class="matematicas-operacion" type="button" value="^" onclick="ingresarNumero(this.value)"></td>
+            </tr>
+
+            <tr class="numero-lista"> </tr>
+        
+            
+        </table>
+    </form>
+
+    <input name="txtboxnros" class="resultado" value="0" disabled></input>
+
+    
+
+    
    
+
+    
   
 
     <script src="./app.js"></script>
