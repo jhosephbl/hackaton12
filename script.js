@@ -20,7 +20,7 @@ function displayList(e){
 	var data = '';
 	if(lists.length > 0){
 		for(var i=0; i < lists.length; i++){
-			data += "<li class='contenedor-tareas-nuevaTarea'><button class='contenedor-tareas-trash' onclick='removeList("+i+")'><span></span>Remover</button>"+lists[i]+"</li>";
+			data += "<li class='contenedor-tareas-nuevaTarea'>"+lists[i]+"<button class='contenedor-tareas-trash' onclick='removeList("+i+")'><span></span>Remover</button></li>";
 		}
 	}
 	
